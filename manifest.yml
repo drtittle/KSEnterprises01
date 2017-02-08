@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: KSEnterprises01
+  host: KSEnterprises01
+  disk_quota: 1024M
+  services:
+  - KSEnterprises01-cloudantNoSQLDB
+  - availability-monitoring-auto
